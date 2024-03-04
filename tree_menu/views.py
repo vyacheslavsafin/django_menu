@@ -1,3 +1,9 @@
-from django.shortcuts import render
+from django.db import connection
+from django.http import HttpRequest, HttpResponse
+from django.views.generic import TemplateView
 
-# Create your views here.
+from tree_menu.models import Menu
+
+
+class IndexView(TemplateView):
+    template_name = "tree_menu/index.html"
