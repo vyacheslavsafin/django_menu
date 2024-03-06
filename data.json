@@ -1,0 +1,2469 @@
+[
+  {
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+      "action_time": "2024-03-04T21:14:03.859Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "Main menu",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+      "action_time": "2024-03-04T21:25:46.717Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "Заголовок",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+      "action_time": "2024-03-04T21:26:29.137Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "Подзаголовок",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+      "action_time": "2024-03-04T21:38:49.262Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "2",
+      "object_repr": "Secondary menu",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+      "action_time": "2024-03-04T21:39:37.937Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "3",
+      "object_repr": "Заголовок второго меню",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+      "action_time": "2024-03-04T21:40:23.773Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "4",
+      "object_repr": "Подзаголовок второго меню",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+      "action_time": "2024-03-04T21:41:50.131Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "5",
+      "object_repr": "Статья",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+      "action_time": "2024-03-04T21:42:23.278Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "6",
+      "object_repr": "Вторая статья",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+      "action_time": "2024-03-05T18:27:23.192Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "2",
+      "object_repr": "Secondary menu",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+      "action_time": "2024-03-05T18:27:46.298Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "Основное меню",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041d\\u0430\\u0437\\u0432\\u0430\\u043d\\u0438\\u0435 \\u043c\\u0435\\u043d\\u044e\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+      "action_time": "2024-03-05T18:29:03.131Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "Пункт меню 1",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041d\\u0430\\u0437\\u0432\\u0430\\u043d\\u0438\\u0435 \\u043f\\u0443\\u043d\\u043a\\u0442\\u0430 \\u043c\\u0435\\u043d\\u044e\", \"Slug\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+      "action_time": "2024-03-05T18:29:29.023Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "Пункт меню 2",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041d\\u0430\\u0437\\u0432\\u0430\\u043d\\u0438\\u0435 \\u043f\\u0443\\u043d\\u043a\\u0442\\u0430 \\u043c\\u0435\\u043d\\u044e\", \"Slug\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+      "action_time": "2024-03-05T18:29:48.251Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "5",
+      "object_repr": "Пункт меню 3",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041d\\u0430\\u0437\\u0432\\u0430\\u043d\\u0438\\u0435 \\u043f\\u0443\\u043d\\u043a\\u0442\\u0430 \\u043c\\u0435\\u043d\\u044e\", \"Slug\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+      "action_time": "2024-03-05T18:35:55.331Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "America",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041d\\u0430\\u0437\\u0432\\u0430\\u043d\\u0438\\u0435 \\u043f\\u0443\\u043d\\u043a\\u0442\\u0430 \\u043c\\u0435\\u043d\\u044e\", \"Slug\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+      "action_time": "2024-03-05T18:36:20.494Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "Asia",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041d\\u0430\\u0437\\u0432\\u0430\\u043d\\u0438\\u0435 \\u043f\\u0443\\u043d\\u043a\\u0442\\u0430 \\u043c\\u0435\\u043d\\u044e\", \"Slug\", \"Parent\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+      "action_time": "2024-03-05T18:36:45.637Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "5",
+      "object_repr": "Europe",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041d\\u0430\\u0437\\u0432\\u0430\\u043d\\u0438\\u0435 \\u043f\\u0443\\u043d\\u043a\\u0442\\u0430 \\u043c\\u0435\\u043d\\u044e\", \"Slug\", \"Parent\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+      "action_time": "2024-03-05T18:39:31.630Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "7",
+      "object_repr": "United States of America",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+      "action_time": "2024-03-05T18:40:00.487Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "8",
+      "object_repr": "Germany",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+      "action_time": "2024-03-05T18:40:21.221Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "9",
+      "object_repr": "Japan",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+      "action_time": "2024-03-05T18:40:59.950Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "10",
+      "object_repr": "South Korea",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+      "action_time": "2024-03-05T18:41:36.489Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "11",
+      "object_repr": "France",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+      "action_time": "2024-03-05T18:42:03.905Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "12",
+      "object_repr": "China",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+      "action_time": "2024-03-05T18:42:26.849Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "13",
+      "object_repr": "Italy",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+      "action_time": "2024-03-05T18:43:11.805Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "14",
+      "object_repr": "Czech Republic",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+      "action_time": "2024-03-05T18:44:03.250Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "15",
+      "object_repr": "Ford",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+      "action_time": "2024-03-05T18:44:19.616Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "16",
+      "object_repr": "Chevrolet",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+      "action_time": "2024-03-05T18:44:27.615Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "17",
+      "object_repr": "Jeep",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+      "action_time": "2024-03-05T18:44:38.718Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "18",
+      "object_repr": "Buick",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+      "action_time": "2024-03-05T18:45:49.101Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "19",
+      "object_repr": "Volkswagen",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+      "action_time": "2024-03-05T18:46:00.105Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "20",
+      "object_repr": "Audi",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+      "action_time": "2024-03-05T18:46:13.492Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "21",
+      "object_repr": "Mercedes",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+      "action_time": "2024-03-05T18:46:32.614Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "22",
+      "object_repr": "BMW",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+      "action_time": "2024-03-05T18:47:00.126Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "23",
+      "object_repr": "Renault",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+      "action_time": "2024-03-05T18:47:20.960Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "24",
+      "object_repr": "Peugeot",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+      "action_time": "2024-03-05T18:47:38.684Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "25",
+      "object_repr": "Citroen",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+      "action_time": "2024-03-05T18:48:09.963Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "26",
+      "object_repr": "Honda",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+      "action_time": "2024-03-05T18:48:20.242Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "27",
+      "object_repr": "Nissan",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+      "action_time": "2024-03-05T18:48:43.867Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "28",
+      "object_repr": "Mitsubishi",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+      "action_time": "2024-03-05T18:48:55.020Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "29",
+      "object_repr": "Toyota",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 40,
+    "fields": {
+      "action_time": "2024-03-05T18:49:20.429Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "30",
+      "object_repr": "Mazda",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 41,
+    "fields": {
+      "action_time": "2024-03-05T18:49:37.044Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "31",
+      "object_repr": "Suzuki",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 42,
+    "fields": {
+      "action_time": "2024-03-05T18:50:14.211Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "32",
+      "object_repr": "Hyundai",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 43,
+    "fields": {
+      "action_time": "2024-03-05T18:50:34.879Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "33",
+      "object_repr": "KIA",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 44,
+    "fields": {
+      "action_time": "2024-03-05T18:51:12.103Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "34",
+      "object_repr": "Fiat",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 45,
+    "fields": {
+      "action_time": "2024-03-05T18:52:20.185Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "35",
+      "object_repr": "Geely",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 46,
+    "fields": {
+      "action_time": "2024-03-05T18:52:41.672Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "36",
+      "object_repr": "Chery",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 47,
+    "fields": {
+      "action_time": "2024-03-05T18:53:22.431Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "37",
+      "object_repr": "Changan",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 48,
+    "fields": {
+      "action_time": "2024-03-05T18:53:42.483Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "38",
+      "object_repr": "Škoda",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 49,
+    "fields": {
+      "action_time": "2024-03-05T18:55:41.301Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "39",
+      "object_repr": "Bronco",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 50,
+    "fields": {
+      "action_time": "2024-03-05T18:56:12.651Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "40",
+      "object_repr": "F-150",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 51,
+    "fields": {
+      "action_time": "2024-03-05T18:56:39.781Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "41",
+      "object_repr": "Camaro",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 52,
+    "fields": {
+      "action_time": "2024-03-05T18:57:11.819Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "42",
+      "object_repr": "Corvette",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 53,
+    "fields": {
+      "action_time": "2024-03-05T18:57:53.295Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "43",
+      "object_repr": "Cherokee",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 54,
+    "fields": {
+      "action_time": "2024-03-05T18:58:16.372Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "44",
+      "object_repr": "Wrangler",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 55,
+    "fields": {
+      "action_time": "2024-03-05T18:58:56.412Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "45",
+      "object_repr": "Century",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 56,
+    "fields": {
+      "action_time": "2024-03-05T18:59:11.984Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "46",
+      "object_repr": "Regal",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 57,
+    "fields": {
+      "action_time": "2024-03-05T18:59:58.193Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "47",
+      "object_repr": "Accord",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 58,
+    "fields": {
+      "action_time": "2024-03-05T19:00:25.293Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "48",
+      "object_repr": "Civic",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 59,
+    "fields": {
+      "action_time": "2024-03-05T19:00:58.942Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "49",
+      "object_repr": "Patrol",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 60,
+    "fields": {
+      "action_time": "2024-03-05T19:01:35.114Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "50",
+      "object_repr": "Murano",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 61,
+    "fields": {
+      "action_time": "2024-03-05T19:01:56.119Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "51",
+      "object_repr": "Pajero",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 62,
+    "fields": {
+      "action_time": "2024-03-05T19:02:22.334Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "52",
+      "object_repr": "Outlander",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 63,
+    "fields": {
+      "action_time": "2024-03-05T19:02:52.141Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "53",
+      "object_repr": "Camry",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 64,
+    "fields": {
+      "action_time": "2024-03-05T19:03:15.549Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "54",
+      "object_repr": "Land Cruiser",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 65,
+    "fields": {
+      "action_time": "2024-03-05T19:04:58.848Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "55",
+      "object_repr": "CX-7",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 66,
+    "fields": {
+      "action_time": "2024-03-05T19:05:42.293Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "56",
+      "object_repr": "RX-8",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 67,
+    "fields": {
+      "action_time": "2024-03-05T19:06:35.574Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "57",
+      "object_repr": "Jimny",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 68,
+    "fields": {
+      "action_time": "2024-03-05T19:06:54.879Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "58",
+      "object_repr": "Vitara",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 69,
+    "fields": {
+      "action_time": "2024-03-05T19:07:26.145Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "59",
+      "object_repr": "Elantra",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 70,
+    "fields": {
+      "action_time": "2024-03-05T19:07:45.820Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "60",
+      "object_repr": "Palisade",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 71,
+    "fields": {
+      "action_time": "2024-03-05T19:08:05.030Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "61",
+      "object_repr": "Ceed",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 72,
+    "fields": {
+      "action_time": "2024-03-05T19:08:21.067Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "62",
+      "object_repr": "Sportage",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 73,
+    "fields": {
+      "action_time": "2024-03-05T19:09:03.194Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "63",
+      "object_repr": "Atlas",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 74,
+    "fields": {
+      "action_time": "2024-03-05T19:09:26.150Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "64",
+      "object_repr": "Coolray",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 75,
+    "fields": {
+      "action_time": "2024-03-05T19:09:54.346Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "65",
+      "object_repr": "Tiggo",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 76,
+    "fields": {
+      "action_time": "2024-03-05T19:10:30.352Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "66",
+      "object_repr": "Amulet",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 77,
+    "fields": {
+      "action_time": "2024-03-05T19:11:35.587Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "67",
+      "object_repr": "Alsvin",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 78,
+    "fields": {
+      "action_time": "2024-03-05T19:12:08.127Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "68",
+      "object_repr": "Touareg",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 79,
+    "fields": {
+      "action_time": "2024-03-05T19:12:18.429Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "69",
+      "object_repr": "Golf",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 80,
+    "fields": {
+      "action_time": "2024-03-05T19:12:49.812Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "70",
+      "object_repr": "A7",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 81,
+    "fields": {
+      "action_time": "2024-03-05T19:12:59.481Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "71",
+      "object_repr": "Q7",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 82,
+    "fields": {
+      "action_time": "2024-03-05T19:14:47.691Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "72",
+      "object_repr": "E-klasse",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 83,
+    "fields": {
+      "action_time": "2024-03-05T19:15:09.449Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "73",
+      "object_repr": "C-klasse",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 84,
+    "fields": {
+      "action_time": "2024-03-05T19:16:58.232Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "74",
+      "object_repr": "5 series",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 85,
+    "fields": {
+      "action_time": "2024-03-05T19:17:17.703Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "75",
+      "object_repr": "7 series",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 86,
+    "fields": {
+      "action_time": "2024-03-05T19:18:38.990Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "76",
+      "object_repr": "Fluence",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 87,
+    "fields": {
+      "action_time": "2024-03-05T19:18:53.193Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "77",
+      "object_repr": "Scenic",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 88,
+    "fields": {
+      "action_time": "2024-03-05T19:19:13.080Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "78",
+      "object_repr": "307",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 89,
+    "fields": {
+      "action_time": "2024-03-05T19:19:25.031Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "79",
+      "object_repr": "407",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 90,
+    "fields": {
+      "action_time": "2024-03-05T19:19:43.805Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "80",
+      "object_repr": "C5",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 91,
+    "fields": {
+      "action_time": "2024-03-05T19:19:54.140Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "81",
+      "object_repr": "C7",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 92,
+    "fields": {
+      "action_time": "2024-03-05T19:20:50.238Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "82",
+      "object_repr": "Linea",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 93,
+    "fields": {
+      "action_time": "2024-03-05T19:21:06.727Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "83",
+      "object_repr": "Punto",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 94,
+    "fields": {
+      "action_time": "2024-03-05T19:21:34.149Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "84",
+      "object_repr": "Fabia",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 95,
+    "fields": {
+      "action_time": "2024-03-05T19:21:51.656Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "85",
+      "object_repr": "Octavia",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 96,
+    "fields": {
+      "action_time": "2024-03-06T09:27:29.883Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "North America",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041d\\u0430\\u0437\\u0432\\u0430\\u043d\\u0438\\u0435 \\u043f\\u0443\\u043d\\u043a\\u0442\\u0430 \\u043c\\u0435\\u043d\\u044e\", \"Slug\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 97,
+    "fields": {
+      "action_time": "2024-03-06T09:35:00.272Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "main menu",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041d\\u0430\\u0437\\u0432\\u0430\\u043d\\u0438\\u0435 \\u043c\\u0435\\u043d\\u044e\"]}}]"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+      "name": "Can add log entry",
+      "content_type": 1,
+      "codename": "add_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+      "name": "Can change log entry",
+      "content_type": 1,
+      "codename": "change_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+      "name": "Can delete log entry",
+      "content_type": 1,
+      "codename": "delete_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+      "name": "Can view log entry",
+      "content_type": 1,
+      "codename": "view_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+      "name": "Can add permission",
+      "content_type": 2,
+      "codename": "add_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+      "name": "Can change permission",
+      "content_type": 2,
+      "codename": "change_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+      "name": "Can delete permission",
+      "content_type": 2,
+      "codename": "delete_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+      "name": "Can view permission",
+      "content_type": 2,
+      "codename": "view_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+      "name": "Can add group",
+      "content_type": 3,
+      "codename": "add_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+      "name": "Can change group",
+      "content_type": 3,
+      "codename": "change_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+      "name": "Can delete group",
+      "content_type": 3,
+      "codename": "delete_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+      "name": "Can view group",
+      "content_type": 3,
+      "codename": "view_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+      "name": "Can add user",
+      "content_type": 4,
+      "codename": "add_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+      "name": "Can change user",
+      "content_type": 4,
+      "codename": "change_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+      "name": "Can delete user",
+      "content_type": 4,
+      "codename": "delete_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+      "name": "Can view user",
+      "content_type": 4,
+      "codename": "view_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+      "name": "Can add content type",
+      "content_type": 5,
+      "codename": "add_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+      "name": "Can change content type",
+      "content_type": 5,
+      "codename": "change_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+      "name": "Can delete content type",
+      "content_type": 5,
+      "codename": "delete_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+      "name": "Can view content type",
+      "content_type": 5,
+      "codename": "view_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+      "name": "Can add session",
+      "content_type": 6,
+      "codename": "add_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+      "name": "Can change session",
+      "content_type": 6,
+      "codename": "change_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+      "name": "Can delete session",
+      "content_type": 6,
+      "codename": "delete_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+      "name": "Can view session",
+      "content_type": 6,
+      "codename": "view_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+      "name": "Can add Меню",
+      "content_type": 7,
+      "codename": "add_menu"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+      "name": "Can change Меню",
+      "content_type": 7,
+      "codename": "change_menu"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+      "name": "Can delete Меню",
+      "content_type": 7,
+      "codename": "delete_menu"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+      "name": "Can view Меню",
+      "content_type": 7,
+      "codename": "view_menu"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+      "name": "Can add Пункт меню",
+      "content_type": 8,
+      "codename": "add_menuitem"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+      "name": "Can change Пункт меню",
+      "content_type": 8,
+      "codename": "change_menuitem"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+      "name": "Can delete Пункт меню",
+      "content_type": 8,
+      "codename": "delete_menuitem"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+      "name": "Can view Пункт меню",
+      "content_type": 8,
+      "codename": "view_menuitem"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$DnnyDjmEQZ7LGOeR9vgju1$WZGOU3jZO+tYO+g9JSX533fjfg24rrONLiexo+pc8NY=",
+      "last_login": "2024-03-04T21:12:31.408Z",
+      "is_superuser": true,
+      "username": "admin",
+      "first_name": "",
+      "last_name": "",
+      "email": "admin@mail.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2024-03-04T21:11:53.741Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+      "app_label": "admin",
+      "model": "logentry"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+      "app_label": "auth",
+      "model": "permission"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+      "app_label": "auth",
+      "model": "group"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+      "app_label": "auth",
+      "model": "user"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+      "app_label": "contenttypes",
+      "model": "contenttype"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+      "app_label": "sessions",
+      "model": "session"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+      "app_label": "tree_menu",
+      "model": "menu"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+      "app_label": "tree_menu",
+      "model": "menuitem"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "m5iaephs2rqbk19ttq14lqyql40hbfmn",
+    "fields": {
+      "session_data": ".eJxVjEEOwiAQRe_C2hAaOgO4dO8ZyMwAUjU0Ke3KeHdt0oVu_3vvv1Skba1x63mJU1JnNajT78Ykj9x2kO7UbrOWua3LxHpX9EG7vs4pPy-H-3dQqddvTX4E45GEMWRCACemsCMqCb3B4CQbKzCwTwTWSChiRy6GMiAUQPX-APOGOGc:1rhFbr:kmJ2JeXdims23CzTSHdteJTjdnrQVi_EbnzMxko8O0M",
+      "expire_date": "2024-03-18T21:12:31.410Z"
+    }
+  },
+  {
+    "model": "tree_menu.menu",
+    "pk": 1,
+    "fields": {
+      "title": "main menu",
+      "slug": "main_menu"
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 1,
+    "fields": {
+      "title": "North America",
+      "slug": "north_america",
+      "menu": 1,
+      "parent": null
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 2,
+    "fields": {
+      "title": "Asia",
+      "slug": "asia",
+      "menu": 1,
+      "parent": null
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 5,
+    "fields": {
+      "title": "Europe",
+      "slug": "europe",
+      "menu": 1,
+      "parent": null
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 7,
+    "fields": {
+      "title": "United States of America",
+      "slug": "usa",
+      "menu": 1,
+      "parent": 1
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 8,
+    "fields": {
+      "title": "Germany",
+      "slug": "germany",
+      "menu": 1,
+      "parent": 5
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 9,
+    "fields": {
+      "title": "Japan",
+      "slug": "Japan",
+      "menu": 1,
+      "parent": 2
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 10,
+    "fields": {
+      "title": "South Korea",
+      "slug": "south_korea",
+      "menu": 1,
+      "parent": 2
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 11,
+    "fields": {
+      "title": "France",
+      "slug": "france",
+      "menu": 1,
+      "parent": 5
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 12,
+    "fields": {
+      "title": "China",
+      "slug": "china",
+      "menu": 1,
+      "parent": 2
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 13,
+    "fields": {
+      "title": "Italy",
+      "slug": "italy",
+      "menu": 1,
+      "parent": 5
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 14,
+    "fields": {
+      "title": "Czech Republic",
+      "slug": "czech_republic",
+      "menu": 1,
+      "parent": 5
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 15,
+    "fields": {
+      "title": "Ford",
+      "slug": "ford",
+      "menu": 1,
+      "parent": 7
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 16,
+    "fields": {
+      "title": "Chevrolet",
+      "slug": "chevrolet",
+      "menu": 1,
+      "parent": 7
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 17,
+    "fields": {
+      "title": "Jeep",
+      "slug": "jeep",
+      "menu": 1,
+      "parent": 7
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 18,
+    "fields": {
+      "title": "Buick",
+      "slug": "Buick",
+      "menu": 1,
+      "parent": 7
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 19,
+    "fields": {
+      "title": "Volkswagen",
+      "slug": "volkswagen",
+      "menu": 1,
+      "parent": 8
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 20,
+    "fields": {
+      "title": "Audi",
+      "slug": "audi",
+      "menu": 1,
+      "parent": 8
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 21,
+    "fields": {
+      "title": "Mercedes",
+      "slug": "Mercedes",
+      "menu": 1,
+      "parent": 8
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 22,
+    "fields": {
+      "title": "BMW",
+      "slug": "btw",
+      "menu": 1,
+      "parent": 8
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 23,
+    "fields": {
+      "title": "Renault",
+      "slug": "renault",
+      "menu": 1,
+      "parent": 11
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 24,
+    "fields": {
+      "title": "Peugeot",
+      "slug": "peugeot",
+      "menu": 1,
+      "parent": 11
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 25,
+    "fields": {
+      "title": "Citroen",
+      "slug": "citroen",
+      "menu": 1,
+      "parent": 11
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 26,
+    "fields": {
+      "title": "Honda",
+      "slug": "honda",
+      "menu": 1,
+      "parent": 9
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 27,
+    "fields": {
+      "title": "Nissan",
+      "slug": "nissan",
+      "menu": 1,
+      "parent": 9
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 28,
+    "fields": {
+      "title": "Mitsubishi",
+      "slug": "mitsubishi",
+      "menu": 1,
+      "parent": 9
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 29,
+    "fields": {
+      "title": "Toyota",
+      "slug": "toyota",
+      "menu": 1,
+      "parent": 9
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 30,
+    "fields": {
+      "title": "Mazda",
+      "slug": "Mazda",
+      "menu": 1,
+      "parent": 9
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 31,
+    "fields": {
+      "title": "Suzuki",
+      "slug": "Suzuki",
+      "menu": 1,
+      "parent": 9
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 32,
+    "fields": {
+      "title": "Hyundai",
+      "slug": "hyundai",
+      "menu": 1,
+      "parent": 10
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 33,
+    "fields": {
+      "title": "KIA",
+      "slug": "kia",
+      "menu": 1,
+      "parent": 10
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 34,
+    "fields": {
+      "title": "Fiat",
+      "slug": "fiat",
+      "menu": 1,
+      "parent": 13
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 35,
+    "fields": {
+      "title": "Geely",
+      "slug": "gel",
+      "menu": 1,
+      "parent": 12
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 36,
+    "fields": {
+      "title": "Chery",
+      "slug": "chery",
+      "menu": 1,
+      "parent": 12
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 37,
+    "fields": {
+      "title": "Changan",
+      "slug": "changan",
+      "menu": 1,
+      "parent": 12
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 38,
+    "fields": {
+      "title": "Škoda",
+      "slug": "skoda",
+      "menu": 1,
+      "parent": 14
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 39,
+    "fields": {
+      "title": "Bronco",
+      "slug": "bronco",
+      "menu": 1,
+      "parent": 15
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 40,
+    "fields": {
+      "title": "F-150",
+      "slug": "f-150",
+      "menu": 1,
+      "parent": 15
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 41,
+    "fields": {
+      "title": "Camaro",
+      "slug": "Camaro",
+      "menu": 1,
+      "parent": 16
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 42,
+    "fields": {
+      "title": "Corvette",
+      "slug": "corvette",
+      "menu": 1,
+      "parent": 16
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 43,
+    "fields": {
+      "title": "Cherokee",
+      "slug": "cherokee",
+      "menu": 1,
+      "parent": 17
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 44,
+    "fields": {
+      "title": "Wrangler",
+      "slug": "wrangler",
+      "menu": 1,
+      "parent": 17
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 45,
+    "fields": {
+      "title": "Century",
+      "slug": "century",
+      "menu": 1,
+      "parent": 18
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 46,
+    "fields": {
+      "title": "Regal",
+      "slug": "regal",
+      "menu": 1,
+      "parent": 18
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 47,
+    "fields": {
+      "title": "Accord",
+      "slug": "accord",
+      "menu": 1,
+      "parent": 26
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 48,
+    "fields": {
+      "title": "Civic",
+      "slug": "civic",
+      "menu": 1,
+      "parent": 26
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 49,
+    "fields": {
+      "title": "Patrol",
+      "slug": "patrol",
+      "menu": 1,
+      "parent": 27
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 50,
+    "fields": {
+      "title": "Murano",
+      "slug": "murano",
+      "menu": 1,
+      "parent": 27
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 51,
+    "fields": {
+      "title": "Pajero",
+      "slug": "pajero",
+      "menu": 1,
+      "parent": 28
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 52,
+    "fields": {
+      "title": "Outlander",
+      "slug": "outlander",
+      "menu": 1,
+      "parent": 28
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 53,
+    "fields": {
+      "title": "Camry",
+      "slug": "Camry",
+      "menu": 1,
+      "parent": 29
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 54,
+    "fields": {
+      "title": "Land Cruiser",
+      "slug": "land_cruiser",
+      "menu": 1,
+      "parent": 29
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 55,
+    "fields": {
+      "title": "CX-7",
+      "slug": "cx-7",
+      "menu": 1,
+      "parent": 30
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 56,
+    "fields": {
+      "title": "RX-8",
+      "slug": "rx-8",
+      "menu": 1,
+      "parent": 30
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 57,
+    "fields": {
+      "title": "Jimny",
+      "slug": "jimny",
+      "menu": 1,
+      "parent": 31
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 58,
+    "fields": {
+      "title": "Vitara",
+      "slug": "vitara",
+      "menu": 1,
+      "parent": 31
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 59,
+    "fields": {
+      "title": "Elantra",
+      "slug": "elantra",
+      "menu": 1,
+      "parent": 32
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 60,
+    "fields": {
+      "title": "Palisade",
+      "slug": "palisade",
+      "menu": 1,
+      "parent": 32
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 61,
+    "fields": {
+      "title": "Ceed",
+      "slug": "ceed",
+      "menu": 1,
+      "parent": 33
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 62,
+    "fields": {
+      "title": "Sportage",
+      "slug": "sportage",
+      "menu": 1,
+      "parent": 33
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 63,
+    "fields": {
+      "title": "Atlas",
+      "slug": "atlas",
+      "menu": 1,
+      "parent": 35
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 64,
+    "fields": {
+      "title": "Coolray",
+      "slug": "coolray",
+      "menu": 1,
+      "parent": 35
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 65,
+    "fields": {
+      "title": "Tiggo",
+      "slug": "tiggo",
+      "menu": 1,
+      "parent": 36
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 66,
+    "fields": {
+      "title": "Amulet",
+      "slug": "amulet",
+      "menu": 1,
+      "parent": 36
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 67,
+    "fields": {
+      "title": "Alsvin",
+      "slug": "alsvin",
+      "menu": 1,
+      "parent": 37
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 68,
+    "fields": {
+      "title": "Touareg",
+      "slug": "touareg",
+      "menu": 1,
+      "parent": 19
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 69,
+    "fields": {
+      "title": "Golf",
+      "slug": "golf",
+      "menu": 1,
+      "parent": 19
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 70,
+    "fields": {
+      "title": "A7",
+      "slug": "a7",
+      "menu": 1,
+      "parent": 20
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 71,
+    "fields": {
+      "title": "Q7",
+      "slug": "q7",
+      "menu": 1,
+      "parent": 20
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 72,
+    "fields": {
+      "title": "E-klasse",
+      "slug": "e-klasse",
+      "menu": 1,
+      "parent": 21
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 73,
+    "fields": {
+      "title": "C-klasse",
+      "slug": "c-klasse",
+      "menu": 1,
+      "parent": 21
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 74,
+    "fields": {
+      "title": "5 series",
+      "slug": "5_series",
+      "menu": 1,
+      "parent": 22
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 75,
+    "fields": {
+      "title": "7 series",
+      "slug": "7_series",
+      "menu": 1,
+      "parent": 22
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 76,
+    "fields": {
+      "title": "Fluence",
+      "slug": "fluency",
+      "menu": 1,
+      "parent": 23
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 77,
+    "fields": {
+      "title": "Scenic",
+      "slug": "scenic",
+      "menu": 1,
+      "parent": 23
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 78,
+    "fields": {
+      "title": "307",
+      "slug": "307",
+      "menu": 1,
+      "parent": 24
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 79,
+    "fields": {
+      "title": "407",
+      "slug": "407",
+      "menu": 1,
+      "parent": 24
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 80,
+    "fields": {
+      "title": "C5",
+      "slug": "c5",
+      "menu": 1,
+      "parent": 25
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 81,
+    "fields": {
+      "title": "C7",
+      "slug": "c7",
+      "menu": 1,
+      "parent": 25
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 82,
+    "fields": {
+      "title": "Linea",
+      "slug": "linea",
+      "menu": 1,
+      "parent": 34
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 83,
+    "fields": {
+      "title": "Punto",
+      "slug": "punto",
+      "menu": 1,
+      "parent": 34
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 84,
+    "fields": {
+      "title": "Fabia",
+      "slug": "fabia",
+      "menu": 1,
+      "parent": 38
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 85,
+    "fields": {
+      "title": "Octavia",
+      "slug": "octavia",
+      "menu": 1,
+      "parent": 38
+    }
+  }
+]
